@@ -1,6 +1,5 @@
 {
   "_id" : "_design/esdb",
-  "_rev":"4-9bdcfe8bd0f85341111fb9d02010b9cb",
   "views" : {
     "contacts" : {
       "map" : "function(doc) {if (doc.type === 'contact') {emit(doc._id, doc);}}"
