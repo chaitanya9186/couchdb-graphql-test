@@ -1,0 +1,21 @@
+{
+  "name": "@esnet/couchdb-graphql",
+  "version": "0.0.1",
+  "description": "A test of GraphQL with CouchDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Murphy <pmurphy@es.net>",
+  "license": "MIT",
+  "dependencies": {
+    "dataloader": "^1.0.0",
+    "nano": "^6.1.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.6.0",
+    "eslint-plugin-react": "^3.5.1"
+  }
+}
