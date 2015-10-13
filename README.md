@@ -9,7 +9,7 @@ This repo contains an example of using GraphQL with CouchDB, for the purposes of
 3. Make an "esdb" database within Futon
 4. Install babel-node `npm install --global babel`
 5. Run the input script to import some contacts from ESDB into CouchDB `babel-bode import.js`. Check the data in Futon to see if it imported correctly.
-6. Upload our database views: curl -X PUT http://127.0.0.1:5984/esdb/_design/esdb  --data-binary @couchdb/design.json
+6. Upload our database views: `curl -X PUT http://127.0.0.1:5984/esdb/_design/esdb  --data-binary @couchdb/design.json`
 NOTE: If you want to update the views, you will need to add a `_rev` property to the couchdb/design.json file to specify the current version. You can find the current version in Futon.
 
 ## Running the GraphQL server
